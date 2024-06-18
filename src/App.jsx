@@ -1,8 +1,8 @@
 import "./App.css";
-import DebugValue from "./components/DebugValue";
-import DeferredValue from "./components/DeferredValue";
-import ReactCompilerDefault from "./components/ReactCompilerDefault";
-import ReactCompilerNoMemo from "./components/ReactCompilerNoMemo";
+import DebugValue from "./features/DebugValue";
+import DeferredValue from "./features/DeferredValue";
+import ReactCompilerDefault from "./features/ReactCompilerDefault";
+import ReactCompilerNoMemo from "./features/ReactCompilerNoMemo";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <hr />
       <ReactCompilerDefault />
       <ReactCompilerNoMemo />
+      <hr />
     </>
   );
 }
